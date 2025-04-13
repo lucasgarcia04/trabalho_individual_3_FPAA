@@ -1,7 +1,9 @@
 # Caminho Hamiltoniano  
-**Fundamentos de Projeto e Análise de Algoritmos — Engenharia de Software (5º período)**  
-**Professor: João Paulo Carneiro Aramuni**
-**Aluno: Lucas Ferreira Garcia**
+
+## Informações do Projeto
+- **Disciplina:** Fundamentos de Projeto e Análise de Algoritmos - PUC Minas
+- **Professor:** João Paulo Carneiro Aramuni
+- **Autor:** Lucas Ferreira Garcia
 
 ---
 
@@ -13,15 +15,14 @@ A abordagem utilizada é baseada em backtracking, uma técnica de busca que test
 
 ---
 
-## Estrutura do Projeto
-
-├── assets
-│   └── grafo.png           # Imagem do grafo com Caminho Hamiltoniano destacado
-├── main.py              # Implementação do algoritmo de Caminho Hamiltoniano
-├── test.py              # Testes automatizados para o algoritmo
-├── view.py              # Visualização do grafo com NetworkX e Matplotlib
-├── requirements.txt     # Dependências do projeto
-└── README.md            # Documentação do projeto e relatório técnico
+### Estrutura dos Arquivos
+- **`assets`**: Pasta com as imagens usadas no projeto.
+- **`grafo.png`**: Imagem gerada pelo view.py.
+- **`main.py`**: Contém a implementação do algoritmo de Caminho Hamiltoniano utilizando backtracking.
+- **`view.py`**: Responsável por gerar a visualização gráfica do grafo e destacar o caminho Hamiltoniano.
+- **`test.py`**: Arquivo de testes unitários para validar o funcionamento do algoritmo.
+- **`requirements.txt`**: Lista de bibliotecas necessárias para executar o projeto (como `networkx` e `matplotlib`).
+- **`README.md`**: Documentação completa do projeto com explicação do código, análise da complexidade e instruções de execução.
 
 ---
 
@@ -193,7 +194,7 @@ O **Problema do Caixeiro Viajante (TSP)** é uma variação do Caminho Hamiltoni
 
 ---
 
-### ⏱Análise da Complexidade Assintótica
+### Análise da Complexidade Assintótica
 
 #### Complexidade Temporal:
 - **Pior caso:** `O(n!)`  
@@ -227,7 +228,7 @@ T(n) = (n - 1) * T(n - 1) → O(n!)
 
 ---
 
-### 📈 Análise dos Casos de Complexidade
+### Análise dos Casos de Complexidade
 
 | Caso        | Descrição                                                              | Complexidade | Impacto             |
 |-------------|------------------------------------------------------------------------|--------------|----------------------|
@@ -247,7 +248,7 @@ O arquivo `view.py` utiliza:
 
 ---
 
-## 📎 Referências
+## Referências
 
 - PDF - Aula 02: Introdução à Teoria da Complexidade
 
